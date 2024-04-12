@@ -1,7 +1,5 @@
 {
   "rewrites": [
-    // rewrite all URLs to "/" which will serve the index.html
-    // if you have more rewrites then put them above this one
     {"source": "/:a*", "destination": "/"}
   ]
 }
